@@ -97,17 +97,18 @@ header{
     width: 100%;
     z-index: 1000000000;
 }
-header.inner{
-    background-image: url('../img/menu-bg.jpg');
-    background-size: cover;
-    background-position: 100% 100%;
-}
 
 header .header-padding{
     padding: 0px;
-    padding-left: 75px;
+    padding: 0 100px;
 }
-
+header .top-bar{
+    background: #FF7F0C;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
