@@ -46,7 +46,7 @@ a, a:hover, a:visited, a:active, a:focus{
 
 .btn{
     position: relative;
-    background-color: #43ba50;
+    background-color: #FF7F0C;
     color: #fff;
     font-size: 16px;
     font-weight:bold;
@@ -57,7 +57,7 @@ a, a:hover, a:visited, a:active, a:focus{
 }
 .btn:hover{
     color: #fff;
-    background-color: #026841;
+    background-color: #FF7F0C;
 }
 
 
