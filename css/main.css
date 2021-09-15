@@ -319,7 +319,6 @@ header.sticky-mobile .main-nav {
 /* title area */
 
 .title-area{
-    background-image: url('../img/main-image.jpg');
     background-size: cover;
     background-position: 50% 50%;
     margin-top: 99px;
@@ -341,8 +340,6 @@ header.sticky-mobile .main-nav {
 /* home-banner */
 
 .home-banner{
-    background-image: url('../img/main-image.png');
-    background-size: cover;
     background-position: 50% 50%;
     padding-top: 100px;
 }
@@ -412,7 +409,6 @@ header.sticky-mobile .main-nav {
 
 /* * home-services */
 .home-services {
-    background-image: url('../img/bg.jpg');
     background-size: cover;
     background-position: top;
     padding-top: 80px;
@@ -548,17 +544,4 @@ footer .copyright span{
 }
 footer .copyright .reach-logo{
     float: right;
-}
-
-.goto-top{
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-    display: none;
-    transition: ease 0.3s;
-    z-index: 10000;
-}
-.goto-top.show-top{
-    display: block;
-    transition: ease 0.3s;
 }
