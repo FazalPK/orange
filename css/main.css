@@ -635,6 +635,10 @@ header.sticky-mobile .main-nav {
     margin: 0 auto;
 }
 
+/* * home-testimonials */
+.home-testimonials{
+    background: linear-gradient(to bottom, #FFF0E4, transparent);
+}
 
 
 
