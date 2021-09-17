@@ -114,8 +114,21 @@
   // });
 
   
+
+  $('.count').each(function () {
+    $(this).prop('Counter',0).delay(3000).animate({
+      Counter: $(this).text().replace(/,/g, '')
+    }, {
+        duration: 3000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now).toLocaleString());
+        }
+    });
+  });
+
     
-  $("#home-slider").owlCarousel({
+  $("#home-technology").owlCarousel({
     dots: true,
     responsiveClass:true,
     loop: true,
@@ -125,13 +138,13 @@
     nav: true,
     responsive:{
         0:{
-            items:1
+            items:2.5
         },
         600:{
-            items:1
+            items:4.75
         },
         1000:{
-            items:1
+            items:4.75
         }
     }
   });
