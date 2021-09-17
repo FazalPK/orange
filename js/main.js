@@ -129,7 +129,7 @@
 
     
   $("#home-technology").owlCarousel({
-    dots: true,
+    dots: false,
     responsiveClass:true,
     loop: true,
     autoplay: true,
@@ -141,10 +141,31 @@
             items:2.5
         },
         600:{
-            items:4.75
+            items:4.5
         },
         1000:{
-            items:4.75
+            items:4.5
+        }
+    }
+  });
+    
+  $("#home-testimonials").owlCarousel({
+    dots: false,
+    responsiveClass:true,
+    loop: false,
+    autoplay: false,
+    smartSpeed: 300, 
+    navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+    nav: true,
+    responsive:{
+        0:{
+            items:3
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
         }
     }
   });
