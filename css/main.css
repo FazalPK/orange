@@ -120,14 +120,14 @@ header{
 
 header .header-padding{
     padding: 0px;
-    padding: 0 100px;
+    padding: 0 150px;
 }
 header .top-bar{
     background: #FF7F0C;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 100px;
+    padding: 8px 150px;
 }
 header .top-bar ul{
     padding: 0;
@@ -350,15 +350,22 @@ header.sticky-mobile .main-nav {
 
 .title-area{
     margin-top: 120px;
+    background-color: #D4CEC9;
 }
 
 .title-area .content{
     padding: 120px 0px;
-    color: #fff
+    color: #fff;
+    color: #FF7F0C;
 }
 
 .title-area .content h1{
-    font-size:90px;
+    font-size: 64px;
+    font-weight: 700;
+    color: #FF7F0C;
+}
+.title-area .image-area img{
+    margin: 0 auto;
 }
 
 
@@ -644,6 +651,7 @@ header.sticky-mobile .main-nav {
 /* * home-testimonials */
 .home-testimonials{
     background: linear-gradient(to bottom, #FFF0E4, transparent);
+    padding: 80px 0;
 }
 
 .home-testimonials .owl-carousel{
@@ -706,11 +714,89 @@ header.sticky-mobile .main-nav {
 
 
 
+/* ! ABout us page */
+.about-intro .container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.about-intro .container-flex .item {
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    width: 24%;
+    filter: drop-shadow(7px 40px 30px rgba(0, 0, 0, 0.1));
+}
+.about-intro .container-flex .item .content{
+    background: #fff;
+    height: 250px;
+    padding: 50px 15px;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 70% 100%, 0 100%);
+    color: #FF7F0C;
+    box-shadow: inset 0px 0px 10px rgb(0 0 0 / 20%);
+}
+.about-intro .container-flex .item .content img{
+    margin: 0 auto;
+}
+
+
+
+.about-content .item{
+    margin-top: 80px;
+    padding-top: 80px;
+    border-top: 1px solid #C4C4C4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-content .item h3{
+    min-width: 30%;
+    color: #FF7F0C;
+}
+
+
+.about-bottom{
+    background-color: #FFFEF6;
+    padding: 80px 0px;
+    margin-top: 80px;
+}
+.about-bottom .container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-bottom .container-flex .item{
+    width: 48%;
+    color: #2C2C2C;
+}
+.about-bottom .container-flex .item h3{
+    color: #FF7F0C;
+}
+.about-bottom .container-flex .item img{
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Footer */
 footer{
     background-color: #323434;
     color: #fff;
-    margin-top: 80px;
 }
 footer .main-footer{
     color: #fff;
