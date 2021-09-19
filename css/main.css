@@ -470,11 +470,16 @@ header.sticky-mobile .main-nav {
     margin-top: 50px;
     margin-left: 70px;
     position: relative;
+    transition: 0.3s ease-in-out;
 }
 .home-services .item p::before{
     position: absolute;
     left: -70px;
     top: -10px;
+}
+.home-services .item .font-medium:hover{
+    transform: translateX(10px);
+    transition: 0.3s ease-in-out;
 }
 .home-services .item .item-01::before{
     content: url('../img/hiring.png');
@@ -625,6 +630,7 @@ header.sticky-mobile .main-nav {
 .home-hww .item:hover{
     background: linear-gradient(90deg, #FF7F0C 5px, rgba(255, 164, 34, 24%) 5px);
     transition: 0.3s ease-in-out;
+    transform: scale(1.1);
 }
 .home-hww .item .content{
     margin-left: 25px;
@@ -726,6 +732,11 @@ header.sticky-mobile .main-nav {
     text-align: center;
     width: 24%;
     filter: drop-shadow(7px 40px 30px rgba(0, 0, 0, 0.1));
+    transition:  0.3s ease-in-out;
+}
+.about-intro .container-flex .item:hover{
+    transform: translateY(-10px);
+    transition:  0.3s ease-in-out;
 }
 .about-intro .container-flex .item .content{
     background: #fff;
