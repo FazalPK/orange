@@ -100,18 +100,19 @@
     .title-area .image-area img{
         display: none;
     }
-    .title-area .content{
+    .title-area .container-flex{
         padding: 80px 0;
         text-align: center;
+        justify-content: center;
     }
-    .title-area .content h1{
+    .title-area .item h1{
         font-size: 54px;
     }
 
-    .about-content .item, .container-flex{
+    .over-on-intro .content-area, .about-content .item, .container-flex{
         display: grid !important;
     }
-    .home-hww .container-flex .content-area, .home-services .container-flex .item, .container-flex .item{
+    .over-on-intro .content-area .item.image-area, .home-hww .container-flex .content-area, .home-services .container-flex .item, .container-flex .item{
         width: 100% !important;
     }
 
@@ -153,6 +154,13 @@
         margin-top: 30px;
     }
 
+    .over-on-intro .content-area{
+        padding: 30px 0;
+    }
+    .over-on-content{
+        padding: 35px 0;
+    }
+
     
 }
 @media only screen and (max-width : 800px) {
@@ -162,7 +170,9 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
-
+    .title-area .fa {
+        left: 43.5%;
+    }
     .home-technologies .owl-carousel .item {
         margin: 25px 10px 25px;
         padding: 20px 15px;

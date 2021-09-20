@@ -8,7 +8,9 @@
     font-family: "MetrolineScript";
     src: url("fonts/metrolinescript-regular.otf");
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Barlow', sans-serif;
     line-height: 1.7;
@@ -41,20 +43,21 @@ a, a:hover, a:visited, a:active, a:focus{
 }
 
 
-.btn{
-    position: relative;
-    background-color: #FF7F0C;
-    color: #fff;
-    font-size: 16px;
-    font-weight:bold;
-    padding: 10px 35px;
-    transition: ease 0.5s;
-    border-radius: 0px;
+.btn{    
+    padding: 10px 30px;
+    color: #fff !important;
+    border: #FF7F0C;
+    background: #FF7F0C;
+    border-radius: 3px;
+    box-shadow: 0 17px 38px rgb(0 0 0 / 20%);
     line-height: 1.7;
+    transition: 0.3s ease-in-out;
+    font-weight: 700;
 }
 .btn:hover{
     color: #fff;
-    background-color: #FF7F0C;
+    transform: translateY(-5px);
+    transition: 0.3s ease-in-out;
 }
 
 
@@ -96,7 +99,7 @@ a, a:hover, a:visited, a:active, a:focus{
 }
 h3, .font-bold{
     font-weight: 700;
-}
+} 
 h4, .font-semi-bold{
     font-weight: 600;
 }
@@ -349,15 +352,20 @@ header.sticky-mobile .main-nav {
 .title-area{
     margin-top: 120px;
     background-color: #D4CEC9;
+    position: relative;
 }
 
-.title-area .content{
-    padding: 120px 0px;
+.title-area .container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: #fff;
     color: #FF7F0C;
 }
-
-.title-area .content h1{
+.title-area .container-flex .item{
+    width: 50%;
+}
+.title-area .item h1{
     font-size: 64px;
     font-weight: 700;
     color: #FF7F0C;
@@ -366,7 +374,14 @@ header.sticky-mobile .main-nav {
 .title-area .image-area img{
     margin: 0 auto;
 }
-
+.title-area .fa{
+    position: absolute;
+    bottom: -35px;
+    left: 48.5%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 50px;
+}
 
 
 
@@ -790,6 +805,123 @@ header.sticky-mobile .main-nav {
 
 
 
+
+
+
+
+/* ! over-on Page */
+.over-on-intro{
+    text-align: center;
+}
+.over-on-intro .content-area {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.over-on-intro .content-area .item.image-area{
+    min-width: 45%;
+}
+.over-on-content{
+    padding: 0;
+    background: #FFFEF6;
+}
+.over-on-content .container-flex {
+    text-align: left;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.over-on-content .item.image-area{
+    min-width: 45%;
+}
+.over-on-content .item.image-area img{
+    margin: 0 auto;
+}
+
+.over-on-bottom{
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+
+
+
+
+
+/* ! ons-aanbod page */
+.ons-aanbod-intro{
+    padding: 50px 0;
+}
+.ons-aanbod-intro .container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.ons-aanbod-intro .container-flex .item{
+    width: 49%;
+}
+.ons-aanbod-intro .container-flex .item img{
+    margin: 0 auto;
+}
+
+.ons-aanbod-content .content{
+    padding: 50px 0;
+    border-top: 1px solid #C4C4C4;
+}
+.ons-aanbod-content .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.ons-aanbod-content .item h3{
+    color: #FF7F0C;
+    min-width: 30%;
+}
+
+.ons-aanbod-bottom{
+    background-color: #FFFEF6;
+    padding: 50px 0px;
+}
+.ons-aanbod-bottom .container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ons-aanbod-bottom .container-flex .item{
+    width: 48%;
+    color: #2C2C2C;
+}
+.ons-aanbod-bottom .container-flex .item h3{
+    color: #FF7F0C;
+}
+.ons-aanbod-bottom .container-flex .item img{
+    margin: 0 auto;
+}
+
+.ons-aanbod-bottom-content{
+    padding: 50px 0px;
+}
+.ons-aanbod-bottom-content .container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.ons-aanbod-bottom-content .container-flex .item{
+    width: 48%;
+    color: #2C2C2C;
+}
+.ons-aanbod-bottom-content .container-flex .item h3{
+    color: #FF7F0C;
+}
+.ons-aanbod-bottom-content .container-flex .item img{
+    margin: 0 auto;
+}
 
 
 
