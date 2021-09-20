@@ -101,17 +101,6 @@
 
   
 
-  // $('.count').each(function () {
-  //   $(this).prop('Counter',0).animate({
-  //     Counter: $(this).text().replace(/,/g, '')
-  //   }, {
-  //       duration: 5000,
-  //       easing: 'swing',
-  //       step: function (now) {
-  //           $(this).text(Math.ceil(now).toLocaleString());
-  //       }
-  //     })
-  // });
 
   
 
@@ -141,7 +130,10 @@
             items:2.5
         },
         600:{
-            items:4.5
+            items:3.5
+        },
+        1000:{
+            items:3.5
         },
         1000:{
             items:4.5
@@ -153,16 +145,16 @@
     dots: false,
     responsiveClass:true,
     loop: false,
-    autoplay: false,
+    autoplay: true,
     smartSpeed: 300, 
     navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
     nav: true,
     responsive:{
         0:{
-            items:3
+            items:1
         },
         600:{
-            items:3
+            items:1
         },
         1000:{
             items:3

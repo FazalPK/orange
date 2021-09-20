@@ -20,8 +20,19 @@
 
 @media only screen and (max-width : 1400px) {
     
-    .section-padding{
+    header .top-bar{
+        padding: 8px 50px;
+    }
+    header .header-padding, .section-padding{
         padding: 0 50px;
+    }
+    .home-developer .container-flex{
+        padding: 50px 50px;
+    }
+
+
+    .home-technologies .owl-carousel{
+        padding-left: 100px;
     }
    
 }
@@ -39,31 +50,68 @@
 }
 
 @media only screen and (max-width : 1200px) {
-    .section-padding{
+    header .top-bar{
+        padding: 5px 15px;
+    }
+    header .header-padding, .section-padding{
         padding: 0 15px;
+    }
+    .main-nav .navbar-header{
+        padding: 0 15px;
+    }
+
+    .section h2{
+        font-size: 40px;
     }
 
     .home-services .container-flex .item {
         padding: 50px 20px;
     }
+
+    .home-developer .container-flex{
+        padding: 50px 15px;
+    }
     
 }
 
 @media only screen and (max-width : 1100px) {
- 
+    .home-testimonials .owl-carousel .item .card:after{
+        display: none;
+    }
+
+    .home-testimonials .owl-carousel .owl-nav{
+        display: none;
+    }
+    
 
 }
 @media only screen and (max-width : 1050px) {
-   
+    .home-technologies .owl-carousel .owl-nav{
+        display: none;
+    }
+    .home-technologies .content{
+        width: 100%;
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
-    .container-flex{
+    .title-area .image-area img{
+        display: none;
+    }
+    .title-area .content{
+        padding: 80px 0;
+        text-align: center;
+    }
+    .title-area .content h1{
+        font-size: 54px;
+    }
+
+    .about-content .item, .container-flex{
         display: grid !important;
     }
-    .home-services .container-flex .item, .container-flex .item{
+    .home-hww .container-flex .content-area, .home-services .container-flex .item, .container-flex .item{
         width: 100% !important;
     }
 
@@ -71,9 +119,39 @@
         justify-content: stretch;
     }
     .home-services .container-flex .item:last-child{
-        margin-top: 200px;
+        margin-top: 50px;
     }
 
+    .home-stats .container-flex .item{
+        margin-top: 35px;
+    }
+    .home-stats .container-flex .item h2{
+        margin-bottom: 0;
+    }
+    .home-offer-section .container-flex .item img{
+        margin-bottom: 30px;
+    }
+    .home-developer .container-flex .item img{
+        margin-top: 20px;
+    }
+
+    .home-technologies .owl-carousel{
+        padding-left: 50px;
+    }
+
+
+    .home-testimonials .owl-carousel .item{
+        margin: 100px 0px 0px;
+    }
+
+
+    .about-intro .container-flex{
+        justify-content: center;
+    }
+
+    .about-bottom .container-flex .item img{
+        margin-top: 30px;
+    }
 
     
 }
@@ -84,6 +162,11 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
+
+    .home-technologies .owl-carousel .item {
+        margin: 25px 10px 25px;
+        padding: 20px 15px;
+    }
     
     
 }
@@ -114,3 +197,85 @@
     
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1100px) {
+    /* style mobile nav */
+    .main-nav .navbar-nav>li.contact{
+        display: none;
+    }
+
+    .main-nav .navbar-nav>li {
+        padding: 0px 15px;
+    }
+    .main-nav .navbar-right li.phone {
+        display: none;
+    }
+
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        background-color: #fff;
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .main-nav .navbar-right {
+        margin: 20px 0;
+        font-size: 14px;
+    }
+    .main-nav .navbar-nav>li>a {
+        color: #000;
+    }
+    .main-nav .navbar-nav .open .dropdown-menu>li>a {
+        color: #000;
+    }
+    .main-nav .navbar-nav>.open>a, .main-nav .navbar-nav>.open>a:hover, .main-nav .navbar-nav>.open>a:focus {
+        color: #000;
+        background-color: transparent;
+    }
+    .main-nav .navbar-collapse {
+        border-color: #f0f0f0;
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}

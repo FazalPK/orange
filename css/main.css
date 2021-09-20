@@ -20,7 +20,7 @@ body {
 }
 
 h1, h2, h3, h4, h5{
-    line-height: 1.2;
+    line-height: 1;
     color: #2D2D2D;
 }
 
@@ -60,13 +60,13 @@ a, a:hover, a:visited, a:active, a:focus{
 
 /* Section */
 .section {
-    padding-top: 80px;
+    padding-top: 50px;
     text-align: left;
 }
 .section h2{
     margin-bottom: 20px;
     color: #000;
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 900;
     text-transform: uppercase;
     text-align: center;
@@ -83,11 +83,9 @@ a, a:hover, a:visited, a:active, a:focus{
     margin-bottom: 0px;
 }
 .section-padding{
-    padding: 0 150px;
+    padding: 0 100px;
 }
-.section h2{
-    font-size: 55px;
-}
+
 
 
 .font-black{
@@ -120,14 +118,14 @@ header{
 
 header .header-padding{
     padding: 0px;
-    padding: 0 150px;
+    padding: 0 100px;
 }
 header .top-bar{
     background: #FF7F0C;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 150px;
+    padding: 8px 100px;
 }
 header .top-bar ul{
     padding: 0;
@@ -237,7 +235,7 @@ header .top-bar .contact-info p:last-child{
 
 .main-nav .navbar-toggle {
     border-color: #000;
-    margin: 33px 0px;
+    margin: 23px 0px;
     background-color: #fff;
 }
 .main-nav .navbar-toggle:hover, .main-nav .navbar-toggle:focus {
@@ -340,7 +338,7 @@ header.sticky-mobile {
     box-shadow: 0 16px 22px -2px rgba(0,0,0,.1);
 }
 header.sticky-mobile .main-nav {
-    background-color: #000;
+    background-color: #fff;
 }
 
 
@@ -363,6 +361,7 @@ header.sticky-mobile .main-nav {
     font-size: 64px;
     font-weight: 700;
     color: #FF7F0C;
+    margin-top: 0;
 }
 .title-area .image-area img{
     margin: 0 auto;
@@ -386,7 +385,7 @@ header.sticky-mobile .main-nav {
 
 /* * home-intro */
 .home-intro{ 
-    padding: 80px 0px;
+    padding: 50px 0px;
 }
 .home-intro .metroline{
     font-family: "MetrolineScript";
@@ -419,7 +418,7 @@ header.sticky-mobile .main-nav {
 
 /* *home stats */
 .home-stats{
-    padding: 80px 0;
+    padding: 50px 0;
     background: #F8F8F8;
 }
 .home-stats .container-flex{
@@ -445,7 +444,7 @@ header.sticky-mobile .main-nav {
 .home-services {
     background-size: cover;
     background-position: top;
-    padding-top: 80px;
+    padding-top: 50px;
     background-repeat: no-repeat;
 }
 .home-services .container-flex{
@@ -455,8 +454,8 @@ header.sticky-mobile .main-nav {
 .home-services .container-flex .item{
     background-color: #fff;
     border-radius: 5px;
-    padding: 50px 50px 70px;
-    width: 40%;
+    padding: 30px 30px 50px;
+    width: 48%;
     box-shadow: 8px 12px 71px rgba(0, 0, 0, 0.1);
     position: relative;
 }
@@ -535,7 +534,7 @@ header.sticky-mobile .main-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 80px 150px;
+    padding: 50px 100px;
 }
 .home-developer .container-flex .item{
    width: 50%;
@@ -552,13 +551,13 @@ header.sticky-mobile .main-nav {
     background-size: 100% 500px;
     background-position: top center;
     background-repeat: no-repeat;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 .home-technologies h2{
     text-align: left;
 }
 .home-technologies .content{
-    width: 80%;
+    width: 77%;
 }
 .home-technologies .owl-carousel{
     position: relative;
@@ -581,7 +580,7 @@ header.sticky-mobile .main-nav {
 .home-technologies .owl-carousel .owl-nav{
     position: absolute;
     top: -70px;
-    right: 250px;
+    right: 12%;
 }
 .home-technologies .owl-carousel .owl-nav button.owl-next, .home-technologies .owl-carousel .owl-nav button.owl-prev{
     line-height: 1;
@@ -604,7 +603,7 @@ header.sticky-mobile .main-nav {
     background-repeat: no-repeat;
     padding-top: 250px;
     margin-top: -155px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
 }
 .home-hww .container-flex{
     display: flex;
@@ -613,13 +612,13 @@ header.sticky-mobile .main-nav {
     margin-top: 35px;
 }
 .home-hww .container-flex .content-area{
-    width: 35%;
+    width: 50%;
 }
 .home-hww .container-flex .image-area img{
     margin: 0 auto;
 }
 .home-hww .item {
-    padding: 25px;
+    padding: 15px;
     margin-bottom: 20px;
     display: flex;
     justify-content: flex-start;
@@ -630,7 +629,7 @@ header.sticky-mobile .main-nav {
 .home-hww .item:hover{
     background: linear-gradient(90deg, #FF7F0C 5px, rgba(255, 164, 34, 24%) 5px);
     transition: 0.3s ease-in-out;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .home-hww .item .content{
     margin-left: 25px;
@@ -657,7 +656,7 @@ header.sticky-mobile .main-nav {
 /* * home-testimonials */
 .home-testimonials{
     background: linear-gradient(to bottom, #FFF0E4, transparent);
-    padding: 80px 0;
+    padding: 50px 0;
 }
 
 .home-testimonials .owl-carousel{
@@ -677,7 +676,7 @@ header.sticky-mobile .main-nav {
 }
 .home-testimonials .owl-carousel .item .card{
     border: 1px solid #C4C4C4;
-    padding: 80px 25px 50px;
+    padding: 50px 15px 15px;
     transition: 0.3s ease-in-out;
 }
 .home-testimonials .owl-carousel .item:hover .card{
@@ -752,8 +751,8 @@ header.sticky-mobile .main-nav {
 
 
 .about-content .item{
-    margin-top: 80px;
-    padding-top: 80px;
+    margin-top: 50px;
+    padding-top: 50px;
     border-top: 1px solid #C4C4C4;
     display: flex;
     justify-content: space-between;
@@ -767,8 +766,8 @@ header.sticky-mobile .main-nav {
 
 .about-bottom{
     background-color: #FFFEF6;
-    padding: 80px 0px;
-    margin-top: 80px;
+    padding: 50px 0px;
+    margin-top: 50px;
 }
 .about-bottom .container-flex{
     display: flex;
