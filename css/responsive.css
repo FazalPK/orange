@@ -109,7 +109,7 @@
         font-size: 54px;
     }
 
-    .ons-aanbod-content .item, .over-on-intro .content-area, .about-content .item, .container-flex{
+    .offers-intro .item, .ons-aanbod-content .item, .over-on-intro .content-area, .about-content .item, .container-flex{
         display: grid !important;
     }
     .over-on-intro .content-area .item.image-area, .home-hww .container-flex .content-area, .home-services .container-flex .item, .container-flex .item{
