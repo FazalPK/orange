@@ -61,7 +61,7 @@
     }
 
     .section h2{
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .home-services .container-flex .item {
@@ -106,7 +106,7 @@
         justify-content: center;
     }
     .title-area .item h1{
-        font-size: 54px;
+        font-size: 48px;
     }
 
     .offers-intro .item, .ons-aanbod-content .item, .over-on-intro .content-area, .about-content .item, .container-flex{

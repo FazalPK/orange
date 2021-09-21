@@ -13,8 +13,8 @@ html {
 }
 body {
     font-family: 'Barlow', sans-serif;
-    line-height: 1.7;
-    font-size: 18px;
+    line-height: 1.4;
+    font-size: 16px;
     background: #fff;
     color: #000000;
     font-weight: normal;
@@ -69,7 +69,7 @@ a, a:hover, a:visited, a:active, a:focus{
 .section h2{
     margin-bottom: 20px;
     color: #000;
-    font-size: 50px;
+    font-size: 44px;
     font-weight: 900;
     text-transform: uppercase;
     text-align: center;
@@ -146,7 +146,7 @@ header .top-bar ul li {
 }
 header .top-bar ul li a{
     vertical-align: text-top;
-    line-height: 0;
+    line-height: 1;
 }
 header .top-bar ul li .fa{
     color: #FF7F0C;
@@ -366,7 +366,7 @@ header.sticky-mobile .main-nav {
     width: 50%;
 }
 .title-area .item h1{
-    font-size: 64px;
+    font-size: 60px;
     font-weight: 700;
     color: #FF7F0C;
     margin-top: 0;
@@ -404,7 +404,7 @@ header.sticky-mobile .main-nav {
 }
 .home-intro .metroline{
     font-family: "MetrolineScript";
-    font-size: 84px;
+    font-size: 80px;
     background: -webkit-linear-gradient(#FF7F0C, transparent);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -449,7 +449,7 @@ header.sticky-mobile .main-nav {
     font-weight: 800;
 }
 .home-stats .container-flex .item h5{
-    font-size: 22px;
+    font-size: 20px;
 }
 
 
@@ -601,7 +601,7 @@ header.sticky-mobile .main-nav {
     line-height: 1;
     background: #fff;
     padding: 10px 25px !important;
-    font-size: 50px !important;
+    font-size: 45px !important;
 }
 .home-technologies .owl-carousel .owl-nav button.owl-next:hover, .home-technologies .owl-carousel .owl-nav button.owl-prev:hover{
     color: #000;
@@ -702,7 +702,7 @@ header.sticky-mobile .main-nav {
     content: '';
     position: absolute;
     left: 15px;
-    bottom: 57px;
+    bottom: 46px;
     width: 0;
     height: 0;
     border: 15px solid transparent;
@@ -959,7 +959,7 @@ header.sticky-mobile .main-nav {
     text-align: center;
 }
 .title-area.contact-title .top-text{
-    font-size: 28px;
+    font-size: 24px;
     margin: 0;
 }
 .title-area.contact-title h1{
@@ -1059,7 +1059,7 @@ footer .main-footer ul{
 }
 footer .main-footer ul li{
    padding: 5px 0px;
-   font-size: 18px;
+   font-size: 16px;
    font-weight: 500;
 }
 
