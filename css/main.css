@@ -69,7 +69,7 @@ a, a:hover, a:visited, a:active, a:focus{
 .section h2{
     margin-bottom: 20px;
     color: #000;
-    font-size: 44px;
+    font-size: 30px;
     font-weight: 900;
     text-transform: uppercase;
     text-align: center;
@@ -366,7 +366,7 @@ header.sticky-mobile .main-nav {
     width: 50%;
 }
 .title-area .item h1{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
     color: #FF7F0C;
     margin-top: 0;
@@ -404,7 +404,7 @@ header.sticky-mobile .main-nav {
 }
 .home-intro .metroline{
     font-family: "MetrolineScript";
-    font-size: 80px;
+    font-size: 70px;
     background: -webkit-linear-gradient(#FF7F0C, transparent);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -449,7 +449,7 @@ header.sticky-mobile .main-nav {
     font-weight: 800;
 }
 .home-stats .container-flex .item h5{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
@@ -601,7 +601,7 @@ header.sticky-mobile .main-nav {
     line-height: 1;
     background: #fff;
     padding: 10px 25px !important;
-    font-size: 45px !important;
+    font-size: 32px !important;
 }
 .home-technologies .owl-carousel .owl-nav button.owl-next:hover, .home-technologies .owl-carousel .owl-nav button.owl-prev:hover{
     color: #000;
@@ -657,7 +657,7 @@ header.sticky-mobile .main-nav {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;  
     overflow: hidden;
-    height: 60px;
+    height: 45px;
 }
 .home-hww .image-area img{
     margin: 0 auto;
