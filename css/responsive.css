@@ -132,7 +132,7 @@
     .home-offer-section .container-flex .item img{
         margin-bottom: 30px;
     }
-    .ons-aanbod-intro .container-flex .item img, .ons-aanbod-bottom .container-flex .item img, .ons-aanbod-bottom-content .container-flex .item img, .home-developer .container-flex .item img{
+    .contact-content .container-flex .item, .ons-aanbod-intro .container-flex .item img, .ons-aanbod-bottom .container-flex .item img, .ons-aanbod-bottom-content .container-flex .item img, .home-developer .container-flex .item img{
         margin-top: 20px;
     }
 
@@ -161,6 +161,9 @@
         padding: 35px 0;
     }
 
+    .contact-content{
+        text-align: center;
+    }
     
 }
 @media only screen and (max-width : 800px) {
