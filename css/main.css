@@ -3,7 +3,6 @@
    Author's custom styles
    ========================================================================== */
 
-
 @font-face {
     font-family: "MetrolineScript";
     src: url("fonts/metrolinescript-regular.otf");
@@ -60,6 +59,10 @@ a, a:hover, a:visited, a:active, a:focus{
     transition: 0.3s ease-in-out;
 }
 
+img{
+    width: unset;
+}
+
 
 /* Section */
 .section {
@@ -67,7 +70,7 @@ a, a:hover, a:visited, a:active, a:focus{
     text-align: left;
 }
 .section h2{
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     color: #000;
     font-size: 30px;
     font-weight: 900;
@@ -76,7 +79,6 @@ a, a:hover, a:visited, a:active, a:focus{
 }
 .section h2:first-child{
     margin-top: 0px;
-    margin-bottom: 20px;
     color: #000;
 }
 .section h2 span{
@@ -421,7 +423,6 @@ header.sticky-mobile .main-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
 }
 .home-intro .container-flex .item{
     width: 48%;
@@ -470,7 +471,7 @@ header.sticky-mobile .main-nav {
     background-color: #fff;
     border-radius: 5px;
     padding: 30px 30px 50px;
-    width: 48%;
+    width: 33%;
     box-shadow: 8px 12px 71px rgba(0, 0, 0, 0.1);
     position: relative;
 }
@@ -481,15 +482,15 @@ header.sticky-mobile .main-nav {
     text-align: left;
 }
 .home-services .item p{
-    margin-top: 50px;
-    margin-left: 70px;
+    margin-top: 30px;
+    margin-left: 35px;
     position: relative;
     transition: 0.3s ease-in-out;
 }
 .home-services .item p::before{
     position: absolute;
-    left: -70px;
-    top: -10px;
+    left: -35px;
+    top: 0px;
 }
 .home-services .item .font-medium:hover{
     transform: translateX(10px);
